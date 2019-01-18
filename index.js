@@ -10,7 +10,7 @@ function distanceFromHqInBlocks (block) {
     return block - startingPoint
   }}
   
-  function distanceFromHqInFeet (feet) {
+  function distanceFromHqInFeet (block) {
       if (block < startingPoint) {
     return (startingPoint - block) * feetInBlock
   }
