@@ -26,7 +26,10 @@ function distanceFromHqInBlocks (block) {
     return (start - end) * feetInBlock
   }}
 
-function calculatesFarePrice(start, destination) {
-  const (feetTraveled = )
+function calculatesFarePrice(start, end) {
+  const feetTraveled = distanceTravelledInFeet(start,end)
+  if (feetTraveled <= 400) {
+    return 0 
+  } else if (400 < feetTraveled < 2000)
 }
   
