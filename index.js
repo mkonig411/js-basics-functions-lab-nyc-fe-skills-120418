@@ -1,5 +1,6 @@
 // Code your solution in this file!
 const startingPoint = 42
+const feetInBlock = 264
 
 function distanceFromHqInBlocks (block) {
   if (block < startingPoint) {
@@ -10,5 +11,10 @@ function distanceFromHqInBlocks (block) {
   }}
   
   function distanceFromHqInFeet (feet) {
-    
+      if (block < startingPoint) {
+    return (startingPoint - block) * feetInBlock
+  }
+  else {
+    return (block - startingPoint) * feetInBlock
+  }}
   }
