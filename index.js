@@ -8,3 +8,5 @@ function distanceFromHqInBlocks (block) {
   else {
     return block - startingPoint
   }}
+  
+  function distanceFromHqInBlocks (block)
