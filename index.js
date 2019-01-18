@@ -27,6 +27,6 @@ function distanceFromHqInBlocks (block) {
   }}
 
 function calculatesFarePrice(start, destination) {
-  
+  const (feetTraveled = )
 }
   
