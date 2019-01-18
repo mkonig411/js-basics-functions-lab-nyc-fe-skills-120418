@@ -26,4 +26,7 @@ function distanceFromHqInBlocks (block) {
     return (start - end) * feetInBlock
   }}
 
+function calculatesFarePrice(start, destination) {
+  
+}
   
