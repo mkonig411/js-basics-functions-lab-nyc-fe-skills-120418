@@ -9,4 +9,6 @@ function distanceFromHqInBlocks (block) {
     return block - startingPoint
   }}
   
-  function distanceFromHqInFeet (feet)
+  function distanceFromHqInFeet (feet) {
+    
+  }
